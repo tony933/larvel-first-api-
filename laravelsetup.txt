@@ -1,0 +1,5 @@
+composer create-project laravel/laravel //create project
+php artisan make:model Product --migration // create migration
+php artisan migrate // migration your migration
+php artisan make:controller ProductController --api // create controller
+php artisan serve  // serve on port 8000
